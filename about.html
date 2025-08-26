@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>📖About Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-image: url(img/about1.avif); /* Replace with your actual image path */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      width: 100%;
+      padding: 20px 40px;
+      background-color: #333;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .navbar li a {
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+      padding: 6px 10px;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    .navbar li a:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    main {
+      flex: 1;
+      padding: 60px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .about-container {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 40px;
+      border-radius: 12px;
+      text-align: center;
+      color: white;
+      max-width: 800px;
+      width: 100%;
+    }
+
+    .about-container h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: white;
+    }
+
+    .about-container p {
+      color: white;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 13px;
+      color: #777;
+      background-color: #eaeaea;
+      background-color: transparent;
+    }
+
+    @media (max-width: 600px) {
+      .about-container {
+        padding: 20px;
+      }
+
+      .about-container h2 {
+        font-size: 22px;
+      }
+
+      .about-container p {
+        font-size: 14px;
+      }
+
+      .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Website</h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="about-container">
+      <h2>About Us</h2>
+      <p>
+        Welcome to My Website! We are a passionate team dedicated to building modern, user-friendly web applications.
+        Our mission is to simplify technology and make powerful tools accessible to everyone.
+        Whether you're here to explore, learn, or connect, we're excited to have you on board.
+      </p>
+      <p>
+        This platform is built with care using HTML, CSS, and backend technologies like Spring Boot and Hibernate.
+        We believe in clean design, responsive layouts, and meaningful user experiences.
+      </p>
+    </div>
+  </main>
+
+  <footer style="color: white;">
+    © 2025 My Website. All rights reserved.
+  </footer>
+
+</body>
+</html>
